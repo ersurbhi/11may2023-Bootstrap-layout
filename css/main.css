@@ -1,0 +1,40 @@
+div.surbhi_row{
+    height: 200px;
+    border: 2px dashed red;
+}
+div.surbhi_row > div{
+    height: 100%;
+    border: 1px dashed #000;
+}
+.surbhi2_row{
+    height: 100px;
+    border: 2px dashed purple;
+}
+.surbhi2_row > div{
+    height: 100%;
+    border: 2px dashed orange;
+}
+.surbhi3_row{
+    height: 100px;
+    border: 2px dashed blue;
+}
+.surbhi3_row > div:first-child{
+    height: 100%;
+    background-color: purple;
+}
+.surbhi3_row > div:nth-child(2){
+    height: 100%;
+    background-color: brown;
+}
+.surbhi3_row > div:nth-child(3){
+    height: 100%;
+    background-color: darkcyan;
+}
+.surbhi3_row > div:nth-child(4){
+    height: 100%;
+    background-color: green;
+}
+.surbhi3_row > div:last-child{
+    height: 100%;
+    background-color: red;
+}
